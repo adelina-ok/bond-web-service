@@ -35,10 +35,7 @@ $(document).ready(function() {
 
 function loadAJAX(cat)
 {
-	//AJAX connection will go here
-    //alert('cat is: ' + cat);
-
-	/* url can be run on a server running PHP or
+   /* url can be run on a server running PHP or
       use the a standard HTML server
  
       Indicate below if server is PHP or HTML
@@ -46,36 +43,38 @@ function loadAJAX(cat)
       let url = serverSetup("php",cat); //setup to run against PHP server
       let url = serverSetup("html",cat); //setup to run against HTML server
    */
-
-	let url = serverSetup("html", cat);
-
-	$.ajax({
-		type:"GET",
-		dataType: "json", 
-		url: url,
-		success: bondJSON
-	});
-
+  
+   let url = serverSetup("html",cat);
+  
+   $.ajax({
+       type:"GET",
+       dataType: "json",
+       url:url,
+       success:bondJSON
+   });
 }
-    
+
+
 function toConsole(data)
 {//return data to console for JSON examination
 	console.log(data); //to view,use Chrome console, ctrl + shift + j
 }
 
 function bondJSON(data){
-//JSON processing data goes here
-	//toConsole(data);
-	//$("#output").text(JSON.stringify*(data));
-	$.each(data.films, function(i, item){
+	/*
+	JSON processing data goes here
+	toConsole(data);
+	$("#output").text(JSON.stringify*(data));
+	*/
+	$.each(data.films, function(i,item){
 
 		let text = `
 			 	<b>Title</b>: ${item.Title}<br />
-				<b>Film #</b>: ${itemFilm}<br />
-				<b>Year</b>: ${itemYear}<br />
-				<b>Bond</b>: ${itemBond}<br />
-				<b>Box Office</b>: ${itemBoxOffice}<br />
-				<b>Writers</b>: ${itemWriters}<br />
+				<b>Film #</b>: ${item.Film}<br />
+				<b>Year</b>: ${item.Year}<br />
+				<b>Bond</b>: ${item.Bond}<br />
+				<b>Box Office</b>: ${item.BoxOffice}<br />
+				<b>Writers</b>: ${item.Writers}<br />
 		`;
 		$("<div></div>").html(text).appendTo("#films");
 	});
@@ -88,9 +87,8 @@ function bondJSON(data){
 		<a href="year" class="category">Bond Films By Year</a><br />
 		<a href="box" class="category">Bond Films By International Box Office Totals</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
-		<div id="output">Results go here</div>
 		<div id="films">
-			
 		</div>
+		<div id="output">Results go here</div>	
 	</body>
 </html>
