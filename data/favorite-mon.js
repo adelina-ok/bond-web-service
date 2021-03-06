@@ -66,16 +66,7 @@
                 "SecondaryType":"None",
                 "Pokedex":8,
                 "Color":"Blue",
-                "Image":"wartortle.webp"
-            },
-            {
-              "Name":"Wartortle",
-              "Generation":1,
-              "PrimaryType":"Water",
-              "SecondaryType":"None",
-              "Pokedex":8,
-              "Color":"Blue",
-              "Image":"wartortle.png"
+                "Image":"wartortle.png"
             },
             {
                 "Name":"Venasaur",
@@ -84,7 +75,7 @@
                 "SecondaryType":"Poison",
                 "Pokedex":3,
                 "Color":"Green",
-                "Image":"venasaur.png"
+                "Image":"venusaur.png"
             },
             {
                 "Name":"Ivysaur",
