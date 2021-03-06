@@ -29,7 +29,7 @@
                 "SecondaryType":"Poison",
                 "Pokedex":3,
                 "Color":"Green",
-                "Image":"venasaur.png"
+                "Image":"venusaur.png"
   
                 },
                 {
