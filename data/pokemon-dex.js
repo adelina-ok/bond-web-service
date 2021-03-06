@@ -5,8 +5,8 @@
 			        {
 				"Name":"Bulbasaur",
                 "Generation":1,
-                "PrimaryType":"Grass",
-                "SecondaryType":"Poison",
+                "Primary-Type":"Grass",
+                "Secondary-Type":"Poison",
                 "Pokedex":1,
                 "Color":"Green",
                 "Image":"bulbasaur.jpg"
@@ -15,8 +15,8 @@
               {
 				"Name":"Ivysaur",
                 "Generation":1,
-                "PrimaryType":"Grass",
-                "SecondaryType":"Poison",
+                "Primary-Type":"Grass",
+                "Secondary-Type":"Poison",
                 "Pokedex":2,
                 "Color":"Green",
                 "Image":"Ivysaur.webp"
@@ -25,8 +25,8 @@
                {
           "Name":"Venasaur",
                   "Generation":1,
-                  "PrimaryType":"Grass",
-                  "SecondaryType":"Poison",
+                  "Primary-Type":"Grass",
+                  "Secondary-Type":"Poison",
                   "Pokedex":3,
                   "Color":"Green",
                   "Image":"Venasaur.webp"
@@ -35,8 +35,8 @@
                 {
             "Name":"Charmander",
                     "Generation":1,
-                    "PrimaryType":"Fire",
-                    "SecondaryType":"None",
+                    "Primary-Type":"Fire",
+                    "Secondary-Type":"None",
                     "Pokedex":4,
                     "Color":"Orange",
                     "Image":"Charmander.png"
@@ -45,8 +45,8 @@
                 {
               "Name":"Charmeleon",
                       "Generation":1,
-                      "PrimaryType":"Fire",
-                      "SecondaryType":"None",
+                      "Primary-Type":"Fire",
+                      "Secondary-Type":"None",
                       "Pokedex":5,
                       "Color":"Orange",
                       "Image":"Charmeleon.png"
@@ -55,8 +55,8 @@
                   {
                 "Name":"Charizard",
                         "Generation":1,
-                        "PrimaryType":"Fire",
-                        "SecondaryType":"Flying",
+                        "Primary-Type":"Fire",
+                        "Secondary-Type":"Flying",
                         "Pokedex":6,
                         "Color":"Orange",
                         "Image":"Charizard.webp"
@@ -64,8 +64,8 @@
               {
                 "Name":"Squirtle",
                         "Generation":1,
-                        "PrimaryType":"Water",
-                        "SecondaryType":"None",
+                        "Primary-Type":"Water",
+                        "Secondary-Type":"None",
                         "Pokedex":7,
                         "Color":"Blue",
                         "Image":"Squirtle.webp"
@@ -73,8 +73,8 @@
               {
                 "Name":"Wartortle",
                         "Generation":1,
-                        "PrimaryType":"Water",
-                        "SecondaryType":"None",
+                        "Primary-Type":"Water",
+                        "Secondary-Type":"None",
                         "Pokedex":8,
                         "Color":"Blue",
                         "Image":"Wartortle.webp"
@@ -82,8 +82,8 @@
               {
                 "Name":"Blastoise",
                         "Generation":1,
-                        "PrimaryType":"Water",
-                        "SecondaryType":"None",
+                        "Primary-Type":"Water",
+                        "Secondary-Type":"None",
                         "Pokedex":9,
                         "Color":"Blue",
                         "Image":"Blastoise.png"
@@ -91,8 +91,8 @@
               {
                 "Name":"Pikachu",
                         "Generation":1,
-                        "PrimaryType":"Electric",
-                        "SecondaryType":"None",
+                        "Primary-Type":"Electric",
+                        "Secondary-Type":"None",
                         "Pokedex":25,
                         "Color":"Blue",
                         "Image":"Pikachu.webp"
@@ -100,8 +100,8 @@
               {
                 "Name":"Golbat",
                         "Generation":1,
-                        "PrimaryType":"Poison",
-                        "SecondaryType":"Flying",
+                        "Primary-Type":"Poison",
+                        "Secondary-Type":"Flying",
                         "Pokedex":42,
                         "Color":"Blue",
                         "Image":"Golbat.jpg"
