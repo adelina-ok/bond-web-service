@@ -9,7 +9,7 @@
                 "SecondaryType":"Poison",
                 "Pokedex":1,
                 "Color":"Green",
-                "Image":"Bulbasaur.webp"
+                "Image":"Bulbasaur.jpg"
 
 			  },
               {
