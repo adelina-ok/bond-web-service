@@ -1,5 +1,5 @@
 {
-	  "title": "Pokemon Sorted by Pokedex",
+	  "title": "Pokemon Sorted By Pokedex",
 
 	  "films":[
 		 {
@@ -13,7 +13,7 @@
 
 	        },
                 {
-		"Name":"Ivysaur",
+		            "Name":"Ivysaur",
                 "Generation":1,
                 "PrimaryType":"Grass",
                 "SecondaryType":"Poison",
