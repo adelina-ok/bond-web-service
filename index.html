@@ -17,7 +17,7 @@ function serverSetup(server,cat){
        if(cat == "box"){//box office
            url = "data/pokemon-dex.js";
        }else{//year
-           url = "data/bond-year.js"; 
+           url = "data/favorite-mon.js"; 
        }
    }
    return url;
@@ -93,9 +93,9 @@ function bondJSON(data){
 </head>
 	<body>
 	<h1>Judging Pokemon</h1>
-		<a href="year" class="category">Bond Service</a><br />
+		<a href="year" class="category">Pokemon Sorted By My Own Bias</a><br />
 		<a href="box" class="category">Pokemon Sorted by Pokedex</a><br />
-		<h3 id="filmtitle">Title Will Go Here</h3>
+		<h3 id="filmtitle">Pokemon Will Go Here</h3>
 		<div id="films">
 		</div>
 		<div id="output">Results go here</div>	

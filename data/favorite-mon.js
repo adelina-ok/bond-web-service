@@ -51,13 +51,13 @@
     
             },
                 {
-                    "Name":"Bulbasaur",
-                    "Generation":1,
-                    "Primary-Type":"Grass",
-                    "Secondary-Type":"Poison",
-                    "Pokedex":1,
-                    "Color":"Green",
-                    "Image":"bulbasaur.png"
+                "Name":"Bulbasaur",
+                "Generation":1,
+                "Primary-Type":"Grass",
+                "Secondary-Type":"Poison",
+                "Pokedex":1,
+                "Color":"Green",
+                "Image":"bulbasaur.png"
             },
             {
                 "Name":"Wartortle",
