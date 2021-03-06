@@ -1,13 +1,15 @@
 {
-	"title": "Pokemon Sorted by Pokedex",
-	"pokemon":[
+	  "title": "Pokemon Sorted by Pokedex",
+
+	  "films":[
 			        {
 				"Name":"Bulbasaur",
                 "Generation":1,
                 "PrimaryType":"Grass",
                 "SecondaryType":"Poison",
                 "Pokedex":1,
-                "Image":"Bulbasaur.jpg",
+                "Color":"Green",
+                "Image":"Bulbasaur.webp"
 
 			  },
               {
@@ -16,7 +18,8 @@
                 "PrimaryType":"Grass",
                 "SecondaryType":"Poison",
                 "Pokedex":2,
-                "Image":"Ivysaur.jpg",
+                "Color":"Green",
+                "Image":"Ivysaur.webp"
 
 			      },
                {
@@ -25,7 +28,8 @@
                   "PrimaryType":"Grass",
                   "SecondaryType":"Poison",
                   "Pokedex":3,
-                  "Image":"Venasaur.jpg",
+                  "Color":"Green",
+                  "Image":"Venasaur.webp"
   
            },
                 {
@@ -34,7 +38,8 @@
                     "PrimaryType":"Fire",
                     "SecondaryType":"None",
                     "Pokedex":4,
-                    "Image":"Charmander.jpg",
+                    "Color":"Orange",
+                    "Image":"Charmander.png"
     
             },
                 {
@@ -43,7 +48,8 @@
                       "PrimaryType":"Fire",
                       "SecondaryType":"None",
                       "Pokedex":5,
-                      "Image":"Charmeleon.jpg",
+                      "Color":"Orange",
+                      "Image":"Charmeleon.png"
       
               },
                   {
@@ -52,7 +58,8 @@
                         "PrimaryType":"Fire",
                         "SecondaryType":"Flying",
                         "Pokedex":6,
-                        "Image":"Charizard.jpg",
+                        "Color":"Orange",
+                        "Image":"Charizard.webp"
               },
               {
                 "Name":"Squirtle",
@@ -60,7 +67,8 @@
                         "PrimaryType":"Water",
                         "SecondaryType":"None",
                         "Pokedex":7,
-                        "Image":"Squirtle.jpg",
+                        "Color":"Blue",
+                        "Image":"Squirtle.webp"
               },
               {
                 "Name":"Wartortle",
@@ -68,7 +76,8 @@
                         "PrimaryType":"Water",
                         "SecondaryType":"None",
                         "Pokedex":8,
-                        "Image":"Wartortle.jpg",
+                        "Color":"Blue",
+                        "Image":"Wartortle.webp"
               },
               {
                 "Name":"Blastoise",
@@ -76,7 +85,8 @@
                         "PrimaryType":"Water",
                         "SecondaryType":"None",
                         "Pokedex":9,
-                        "Image":"Blastoise.jpg",
+                        "Color":"Blue",
+                        "Image":"Blastoise.png"
               },
               {
                 "Name":"Pikachu",
@@ -84,7 +94,8 @@
                         "PrimaryType":"Electric",
                         "SecondaryType":"None",
                         "Pokedex":25,
-                        "Image":"Pikachu.jpg",
+                        "Color":"Blue",
+                        "Image":"Pikachu.webp"
               },
               {
                 "Name":"Golbat",
@@ -92,7 +103,8 @@
                         "PrimaryType":"Poison",
                         "SecondaryType":"Flying",
                         "Pokedex":42,
-                        "Image":"Golbat.jpg",
+                        "Color":"Blue",
+                        "Image":"Golbat.jpg"
               }
 			]
 }

@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Bond Web Service Demo</title>
+<title>Judging Pokemon</title>
 <link rel="stylesheet" href="css/bond.css" />
 <style>
 body {font-family:georgia;}
@@ -15,7 +15,7 @@ function serverSetup(server,cat){
        url = "api.php?cat=" + cat;
    }else{//server is HTML only - simulate web service
        if(cat == "box"){//box office
-           url = "data/bond-box-office.js";
+           url = "data/pokemon-dex.js";
        }else{//year
            url = "data/bond-year.js"; 
        }
@@ -77,12 +77,12 @@ function bondJSON(data){
 	$.each(data.films, function(i,item){
 
 		let text = `
-			 	<b>Title</b>: ${item.Title}<br />
-				<b>Film #</b>: ${item.Film}<br />
-				<b>Year</b>: ${item.Year}<br />
-				<b>Bond</b>: ${item.Bond}<br />
-				<b>Box Office</b>: ${item.BoxOffice}<br />
-				<b>Writers</b>: ${item.Writers}<br />
+			 	<b>Name</b>: ${item.Name}<br />
+				<b>Generation</b>: ${item.Generation}<br />
+				<b>PrimaryType</b>: ${item.PrimaryType}<br />
+				<b>SecondaryType</b>: ${item.SecondaryType}<br />
+				<b>Pokedex</b>: ${item.BoxOffice}<br />
+				<b>Color</b>: ${item.Color}<br />
 				<div class="pic"><img src="thumbnails/${item.Image}" /></div>
 		`;
 		$("<div></div>").html(text).appendTo("#films");
@@ -93,9 +93,8 @@ function bondJSON(data){
 </head>
 	<body>
 	<h1>Bond Web Service</h1>
-		<a href="year" class="category">Bond Films By Year</a><br />
+		<a href="year" class="category">Pokemon Sorted by Pokedex</a><br />
 		<a href="box" class="category">Bond Films By International Box Office Totals</a><br />
-		<a href="dex" class="category">Pokemon Sorted by Pokedex</a><br />
 		<h3 id="filmtitle">Title Will Go Here</h3>
 		<div id="films">
 		</div>
